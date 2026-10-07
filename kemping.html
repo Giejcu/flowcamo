@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemping - FlowCamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logoflowcamp.webp" alt="FlowCamp Logo">
+        </a>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="kursy.html">Kursy</a></li>
+            <li><a href="kemping.html">Kemping</a></li>
+            <li><a href="instruktor.html">Instruktor i Asystent</a></li>
+            <li><a href="wyjazdy.html">Wyjazdy</a></li>
+        </ul>
+    </nav>
+
+    <header class="camping-header">
+        <div class="camping-container under-construction">
+            <span class="hero-kicker">OFERTA KEMPINGU</span>
+            <h1 class="section-title">STRONA W REMONCIE 🚧</h1>
+            <p class="maintenance-text">Aktualizujemy cenniki i zdjęcia naszych przyczep.<br>Pełna oferta noclegowa na spocie pojawi się tutaj już wkrótce!</p>
+            <a href="index.html" class="btn btn-primary" style="margin-top: 30px;">WRÓĆ NA STRONĘ GŁÓWNĄ</a>
+        </div>
+    </header>
+
+    <footer class="main-footer">
+        <div class="footer-contact">
+            <div class="contact-info">
+                <h4>TELEFON</h4>
+                <p>Szkolenia / Przemek: +48 504 869 107</p>
+                <h4>LOKALIZACJA</h4>
+                <p>Jastarnia, ul. Polna 21, Polska</p>
+                <div class="footer-links">
+                    <a href="#">POLITYKA PRYWATNOŚCI</a>
+                    <a href="#">REGULAMIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="social-footer">
+            <a href="#">INSTAGRAM</a>
+            <a href="#">FACEBOOK</a>
+            <a href="#">YOUTUBE</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

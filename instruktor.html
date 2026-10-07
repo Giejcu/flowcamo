@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursy Instruktorskie i Asystenckie - FlowCamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logoflowcamp.webp" alt="FlowCamp Logo">
+        </a>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="kursy.html">Kursy</a></li>
+            <li><a href="kemping.html">Kemping</a></li>
+            <li><a href="instruktor.html">Instruktor i Asystent</a></li>
+            <li><a href="wyjazdy.html">Wyjazdy</a></li>
+        </ul>
+    </nav>
+
+    <header class="instructor-header">
+        <div class="instructor-container">
+            <span class="hero-kicker">ZOSTAŃ INSTRUKTOREM LUB ASYSTENTEM</span>
+            <h1 class="section-title">KURSY INSTRUKTORSKIE I ASYSTENCKIE PZKITE</h1>
+            
+            <div class="instructor-card">
+                <h3>ZAMIEŃ PASJĘ NA SPOSÓB NA ŻYCIE</h3>
+                <p>Dołącz do grona profesjonalnych instruktorów oraz asystentów kitesurfingu. Przekazuj swoją zajawkę innym, pracuj na najlepszych spotach w Polsce i na świecie, i ciesz się wiatrem każdego dnia. Nasze kursy przygotowują do oficjalnego egzaminu PZKite, uczą metodyki, dbania o bezpieczeństwo i skutecznego prowadzenia zajęć na wodzie.</p>
+                
+                <div class="instructor-alert">
+                    <div class="alert-icon">🕒</div>
+                    <div class="alert-content">
+                        <h4>TERMINY NA SEZON 2027 WKRÓTCE</h4>
+                        <p>Harmonogram szkoleń instruktorskich i asystenckich na sezon 2027 jest obecnie w trakcie ustalania. Zadzwoń do nas lub śledź nasze social media – poinformujemy Cię jako pierwszego, gdy tylko ruszą zapisy!</p>
+                        <a href="tel:+48504869107" class="btn btn-primary alert-btn">ZADZWOŃ: +48 504 869 107</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer class="main-footer">
+        <div class="footer-contact">
+            <div class="contact-info">
+                <h4>TELEFON</h4>
+                <p>Szkolenia / Przemek: +48 504 869 107</p>
+                <h4>LOKALIZACJA</h4>
+                <p>Jastarnia, ul. Polna 21, Polska</p>
+                <div class="footer-links">
+                    <a href="#">POLITYKA PRYWATNOŚCI</a>
+                    <a href="#">REGULAMIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="social-footer">
+            <a href="#">INSTAGRAM</a>
+            <a href="#">FACEBOOK</a>
+            <a href="#">YOUTUBE</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

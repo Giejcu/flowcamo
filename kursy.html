@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursy Kitesurfingu - FlowCamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logoflowcamp.webp" alt="FlowCamp Logo">
+        </a>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="kursy.html">Kursy</a></li>
+            <li><a href="kemping.html">Kemping</a></li>
+            <li><a href="instruktor.html">Instruktor i Asystent</a></li>
+            <li><a href="wyjazdy.html">Wyjazdy</a></li>
+        </ul>
+    </nav>
+
+    <header class="pricing-header">
+        <div class="pricing-container">
+            <span class="hero-kicker">OFERTA SZKOLEŃ</span>
+            <h1 class="section-title">WYBIERZ SWÓJ PAKIET</h1>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>POJEDYNCZA LEKCJA</h3>
+                    <div class="price">250 zł</div>
+                    <div class="price-calc">1 godzina</div>
+                    <ul class="pricing-features">
+                        <li>Odświeżenie umiejętności po przerwie</li>
+                        <li>Konsultacje dla zaawansowanych</li>
+                        <li>Szybka "zajawka" dla niezdecydowanych</li>
+                        <li>Sprzęt w cenie</li>
+                    </ul>
+                    <a href="tel:+48504869107" class="btn btn-outline">ZADZWOŃ</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>START (PZKITE I)</h3>
+                    <div class="price">1 100 zł</div>
+                    <div class="price-calc">5 godzin (220 zł/h)</div>
+                    <ul class="pricing-features">
+                        <li>Teoria i zasady bezpieczeństwa</li>
+                        <li>Opanowanie sterowania latawcem</li>
+                        <li>Body dragi w wodzie</li>
+                        <li>Przygotowanie do startu z deską</li>
+                    </ul>
+                    <a href="tel:+48504869107" class="btn btn-outline">ZADZWOŃ</a>
+                </div>
+
+                <div class="pricing-card popular">
+                    <div class="popular-badge">NAJPOPULARNIEJSZY</div>
+                    <h3>PROGRES (PZKITE I+II)</h3>
+                    <div class="price">2 000 zł</div>
+                    <div class="price-calc">10 godzin (200 zł/h)</div>
+                    <ul class="pricing-features">
+                        <li>Wszystko z poziomu Start</li>
+                        <li>Pierwsze starty z deską na wodzie</li>
+                        <li>Dłuższe ślizgi na obu halsach</li>
+                        <li>Solidne podstawy kitesurfingu</li>
+                    </ul>
+                    <a href="tel:+48504869107" class="btn btn-primary">ZADZWOŃ</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>ZERO TO HERO</h3>
+                    <div class="price">2 850 zł</div>
+                    <div class="price-calc">15 godzin (190 zł/h)</div>
+                    <ul class="pricing-features">
+                        <li>Pełen kurs od zera do samodzielności</li>
+                        <li>Pływanie pod wiatr (ostrzenie)</li>
+                        <li>Zwroty i bezpieczne radzenie sobie na spocie</li>
+                        <li>Gotowość do samodzielnego wypożyczania sprzętu</li>
+                    </ul>
+                    <a href="tel:+48504869107" class="btn btn-outline">ZADZWOŃ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer class="main-footer">
+        <div class="footer-contact">
+            <div class="contact-info">
+                <h4>TELEFON</h4>
+                <p>Szkolenia / Przemek: +48 504 869 107</p>
+                <h4>LOKALIZACJA</h4>
+                <p>Jastarnia, ul. Polna 21, Polska</p>
+                <div class="footer-links">
+                    <a href="#">POLITYKA PRYWATNOŚCI</a>
+                    <a href="#">REGULAMIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="social-footer">
+            <a href="#">INSTAGRAM</a>
+            <a href="#">FACEBOOK</a>
+            <a href="#">YOUTUBE</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

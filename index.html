@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowCamp Kitesurfing School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logoflowcamp.webp" alt="FlowCamp Logo">
+        </a>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="kursy.html">Kursy</a></li>
+            <li><a href="kemping.html">Kemping</a></li>
+            <li><a href="instruktor.html">Instruktor i Asystent</a></li>
+            <li><a href="wyjazdy.html">Wyjazdy</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <span class="hero-kicker">KITESURFINGSCHOOL</span>
+            <h1 class="hero-title">FLOW<br>CAMP</h1>
+            <h2 class="hero-subtitle">LEARN FAST — RIDE FURIOUS</h2>
+            <p class="hero-locations">Jastarnia - Poland &nbsp;&nbsp;|&nbsp;&nbsp; Cumbuco - Brazil</p>
+            <div class="hero-buttons">
+                <a href="kursy.html" class="btn btn-primary">ZAREZERWUJ KURS</a>
+                <a href="kemping.html" class="btn btn-outline">KEMPING</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="locations-section">
+        <h2 class="section-title">Nasze lokalizacje</h2>
+        <div class="locations-grid">
+            <div class="location-card">
+                <h3>Jastarnia</h3>
+                <p>Nasza baza leży na Półwyspie Helskim, oferując idealnie płytkie wody Zatoki Puckiej, stały wiatr i doskonałą infrastrukturę. To wymarzone miejsce na kursy kitesurfingu oraz profesjonalne szkolenia dla riderów na każdym poziomie zaawansowania.</p>
+                <ul class="location-stats">
+                    <li><strong>DO SPOTU:</strong> 100m</li>
+                    <li><strong>WODA:</strong> Płytka laguna</li>
+                    <li><strong>WARUNKI:</strong> Maj - Wrzesień</li>
+                </ul>
+            </div>
+            <div class="location-card">
+                <h3>Cumbuco</h3>
+                <p>Cumbuco w Brazylii to jeden z najlepszych spotów kitesurfingowych na świecie. Organizujemy tu niezapomniane wyjazdy kitesurfingowe, ponieważ Cumbuco oferuje pewne wiatry (trade winds) przez cały rok, niezwykle ciepłe wody oceanu i unikalną atmosferę.</p>
+                <ul class="location-stats">
+                    <li><strong>WIATR:</strong> 25-30 Kts</li>
+                    <li><strong>WODA:</strong> Płytka laguna / Morze</li>
+                    <li><strong>WARUNKI:</strong> Październik - Grudzień</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="boat-section">
+        <div class="boat-content">
+            <span class="kicker-boat">ODPOCZNIJ PO PŁYWANIU</span>
+            <h2 class="section-title">REJSY JACHTEM BAGATELL</h2>
+            <p>Kitesurfing to adrenalina, ale po mocnej sesji na wodzie przychodzi czas na zasłużony chillout. Przesiądź się z deski na pokład naszego jachtu. Wypłyń w relaksujący rejs po Zatoce, poczuj wiatr w żaglach z innej perspektywy i ciesz się zachodem słońca z dala od tłumów na plaży. Czysta żeglarska przygoda czeka.</p>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <h3 class="kicker">KIM JESTEŚMY</h3>
+        <h2 class="section-title">NASZ ZESPÓŁ</h2>
+        <p class="team-description">FlowCamp to profesjonalna szkoła kitesurfingu tworzona przez ekipę doświadczonych instruktorów. Razem przemierzamy świat w poszukiwaniu najlepszych spotów do pływania i prowadzenia szkoleń. Od brzegów Bałtyku i naszej bazy w Jastarni, po tropikalne wody Cumbuco...</p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <h4>PASJA</h4>
+                <p>Jesteśmy zajawkowiczami, którzy kochają kitesurfing i chcą tę pasję przekazać dalej.</p>
+            </div>
+            <div class="feature-card">
+                <h4>CERTYFIKACJA PZKITE</h4>
+                <p>Wszyscy nasi instruktorzy posiadają certyfikaty PZKite i regularnie podnoszą swoje kwalifikacje.</p>
+            </div>
+            <div class="feature-card">
+                <h4>BEZPIECZEŃSTWO</h4>
+                <p>Bezpieczeństwo kursantów jest zawsze na pierwszym miejscu. Używamy wyłącznie sprawdzonego sprzętu.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-contact">
+            <div class="contact-info">
+                <h4>TELEFON</h4>
+                <p>Szkolenia / Przemek: +48 504 869 107</p>
+                <h4>LOKALIZACJA</h4>
+                <p>Jastarnia, ul. Polna 21, Polska</p>
+                <div class="footer-links">
+                    <a href="#">POLITYKA PRYWATNOŚCI</a>
+                    <a href="#">REGULAMIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="social-footer">
+            <a href="#">INSTAGRAM</a>
+            <a href="#">FACEBOOK</a>
+            <a href="#">YOUTUBE</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
